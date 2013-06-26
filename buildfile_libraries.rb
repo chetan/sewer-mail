@@ -86,7 +86,7 @@ HADOOP = [
     COMMONS_NET + JETTY_6 + JUNIT + HADOOP_DEPS + HTTPCLIENT + GUAVA +
     COMMONS_CONFIGURATION + COMMONS_LANG + AVRO + PROTOBUF + COMMONS_COLLECTIONS
 
-SEWER = [ "net.pixelcop.sewer:sewer:jar:0.5.2" ] + HADOOP
+SEWER = [ "net.pixelcop.sewer:sewer:jar:0.5.3" ] + HADOOP
 
 class Buildr::Artifact
   def <=>(other)

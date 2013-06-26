@@ -41,7 +41,7 @@ define "sewer-mail" do
 
   package(:jar)
   package(:sources)
-  package(:jar).with project.test.compile.target
+  #package(:jar).with project.test.compile.target
   package(:jar, {:classifier => "tests"}).clean.include("target/test/classes/*")
   #package(:javadoc)
 
